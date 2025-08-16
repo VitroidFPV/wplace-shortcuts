@@ -4,7 +4,9 @@
 // @version      1.0.0
 // @description  Keyboard shortcuts and enhancements for WPlace drawing
 // @author       Vitroid
-// @match        https://wplace.live/
+// @match        https://wplace.live/*
+// @updateURL    https://github.com/VitroidFPV/wplace-shortcuts/raw/refs/heads/main/dist/userscript.user.js
+// @downloadURL  https://github.com/VitroidFPV/wplace-shortcuts/raw/refs/heads/main/dist/userscript.user.js
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
