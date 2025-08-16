@@ -7,7 +7,7 @@ console.log('Building with Vite...');
 execSync('vite build', { stdio: 'inherit' });
 
 // Add Tampermonkey headers
-const userscriptPath = resolve('dist/userscript.js');
+const userscriptPath = resolve('dist/userscript.user.js');
 const content = readFileSync(userscriptPath, 'utf-8');
 
 const headers = `// ==UserScript==
@@ -24,4 +24,4 @@ const headers = `// ==UserScript==
 `;
 
 writeFileSync(userscriptPath, headers + content);
-console.log('Added Tampermonkey headers to userscript.js');
+console.log('Added Tampermonkey headers to userscript.user.js');

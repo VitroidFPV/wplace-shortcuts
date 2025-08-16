@@ -11,8 +11,8 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        // Remove hash from filename for easier Tampermonkey installation
-        entryFileNames: 'userscript.js',
+        // Use .user.js extension for Tampermonkey auto-installation
+        entryFileNames: 'userscript.user.js',
         extend: true
       }
     },

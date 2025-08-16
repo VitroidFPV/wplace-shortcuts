@@ -2,7 +2,7 @@
   "name": "wplace-shortcuts",
   "version": "1.0.0",
   "description": "Tampermonkey userscript with TypeScript",
-  "main": "dist/userscript.js",
+  "main": "dist/userscript.user.js",
   "type": "module",
   "scripts": {
     "build": "node scripts/build.js",
