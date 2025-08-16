@@ -17,7 +17,7 @@
       constructor() {
         this.lastKeyPress = "";
         this.lastKeyTime = 0;
-        this.doublePressTimeout = 500;
+        this.doublePressTimeout = 300;
         this.waitingForNumber = false;
         this.numberTimeout = null;
         this.collectedNumbers = "";
