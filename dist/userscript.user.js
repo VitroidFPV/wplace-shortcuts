@@ -7,6 +7,7 @@
 // @match        https://wplace.live/*
 // @updateURL    https://github.com/VitroidFPV/wplace-shortcuts/raw/refs/heads/main/dist/userscript.user.js
 // @downloadURL  https://github.com/VitroidFPV/wplace-shortcuts/raw/refs/heads/main/dist/userscript.user.js
+// @icon64       https://raw.githubusercontent.com/VitroidFPV/wplace-shortcuts/refs/heads/main/assets/icon.png
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
