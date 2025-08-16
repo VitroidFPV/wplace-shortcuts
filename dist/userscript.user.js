@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WPlace Shortcuts
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Keyboard shortcuts and enhancements for WPlace drawing
 // @author       Vitroid
 // @match        https://wplace.live/*
