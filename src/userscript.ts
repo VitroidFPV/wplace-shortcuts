@@ -4,7 +4,7 @@
     class ColorShortcuts {
         private lastKeyPress: string = '';
         private lastKeyTime: number = 0;
-        private doublePressTimeout: number = 500; // milliseconds
+        private doublePressTimeout: number = 300; // milliseconds
         private waitingForNumber: boolean = false;
         private numberTimeout: number | null = null;
         private collectedNumbers: string = '';
