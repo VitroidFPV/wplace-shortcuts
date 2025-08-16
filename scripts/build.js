@@ -11,12 +11,12 @@ const userscriptPath = resolve('dist/userscript.js');
 const content = readFileSync(userscriptPath, 'utf-8');
 
 const headers = `// ==UserScript==
-// @name         Workplace Shortcuts
+// @name         WPlace Shortcuts
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
-// @description  Keyboard shortcuts and enhancements for workplace productivity
-// @author       You
-// @match        https://*/*
+// @description  Keyboard shortcuts and enhancements for WPlace drawing
+// @author       Vitroid
+// @match        https://wplace.live/
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
