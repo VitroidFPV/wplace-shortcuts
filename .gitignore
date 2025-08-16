@@ -1,6 +1,6 @@
 node_modules/
-dist/
 *.log
 .DS_Store
 .vscode/
 .idea/
+# Keep dist/ for GitHub Actions to commit built files
